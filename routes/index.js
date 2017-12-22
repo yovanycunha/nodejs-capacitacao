@@ -22,6 +22,11 @@ router.use('/dog', require('./dog.js'));
  */
 router.use('/user', require('./user.js'))
 
+/**
+ * Usando as rotas de cat.js
+ */
+router.use('/cat', require('./cat.js'))
+
 
 /**
  * Exportando a rota pra quem quiser usar
